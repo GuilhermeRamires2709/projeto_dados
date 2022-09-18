@@ -359,7 +359,7 @@ const municipios = new Array()
         municipios[3]=caxias;
         municipios[4]=farroupilha;
         municipios[5]=flores;
-        console.log(municipios)
+
 
         var cidades = [{
             Cidade: bp[0],
@@ -444,7 +444,8 @@ const municipios = new Array()
             2020: flores[11]
 
     }]
-        console.log(cidades)
+        
+    console.log(cidades)
 
         
         
