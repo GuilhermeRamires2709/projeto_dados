@@ -1,6 +1,7 @@
 const  { load, parseCSV }  =  require ( 'csv-load-sync' )  
 const { parse } = require('fast-csv')
 const  csv  =  load ( 'dee-3859 (1).csv')
+
 //console.log(csv.findIndex('Bom Princípio'))
 
 const  csv1  =  load ( 'dee-3861 (1).csv')
@@ -446,7 +447,18 @@ const municipios = new Array()
     }]
         
     console.log(cidades)
+    const Chart = require('chart.js')
+    var ctx = document.getElementsByTagName('canvas')
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [ "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2016", "2017", "2018", "2019", "2020"],
+            datasets: {
 
+            }
+
+        }
+    })
         
         
         
