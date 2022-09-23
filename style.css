@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke ;
+    padding: 15px;
+}
+.container{
+    background: gainsboro;
+    position: relative;
+    margin: auto;
+    height: 700px;
+    width: 800px;
+}
+h1{
+    border: 10px 10px 10px 10px;
+    font-family: Verdana;
+    text-shadow: 0.1;
+    color: blue;
+}
