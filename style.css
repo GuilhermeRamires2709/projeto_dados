@@ -1,17 +1,26 @@
-body{
-    background-color: whitesmoke ;
-    padding: 15px;
-}
-.container{
-    background: gainsboro;
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(106, 106, 106);
+  }
+iframe{
+    
     position: relative;
     margin: auto;
-    height: 700px;
-    width: 800px;
+    border-left: 20px;
 }
 h1{
     border: 10px 10px 10px 10px;
     font-family: Verdana;
     text-shadow: 0.1;
-    color: blue;
+    align-items: center;
+
+}
+p{
+    font-family: Verdana;
+    text-shadow: 0.1;
+    align-items: center;
+    text-align: justify;
 }
